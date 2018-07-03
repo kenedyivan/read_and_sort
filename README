@@ -16,6 +16,8 @@ cd into the application folder
     ./program.py -f <File Name>
 
     for example ./program.py -f data.csv
+
+    *if file won't execute give it executable permission*
 ---------------------------------------------------------------------------------
 
 2.  change !# variable in program.py to point to location of python interpreter
@@ -25,6 +27,7 @@ cd into the application folder
     then run the application with command
     ./program.py -f <File Name>
 
+    *if file won't execute give it executable permission*
 ---------------------------------------------------------------------------------
 3. Execute it directly with python in the environment path
 
