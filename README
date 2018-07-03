@@ -1,0 +1,40 @@
+Run on linux or mac
+
+Note: The application creates file data0.csv with sorted data in it's root
+    : Make sure to execute with a .csv file with format like in data.csv
+
+cd into the application folder
+---------------------------------------------------------------------------------
+
+1.  Activate virtual environment
+    . venv/bin/activate
+
+    Note: run deactivate to get out off the virtual environment
+
+    Run application with command
+
+    ./program.py -f <File Name>
+
+    for example ./program.py -f data.csv
+---------------------------------------------------------------------------------
+
+2.  change !# variable in program.py to point to location of python interpreter
+    Ensure that pandas package is installed
+        pip install pandas
+
+    then run the application with command
+    ./program.py -f <File Name>
+
+---------------------------------------------------------------------------------
+3. Execute it directly with python in the environment path
+
+    Ensure that pandas package is installed
+        pip install pandas
+
+    python program.py -f <File Name>
+
+    or
+
+    python3.6 program.py -f <File Name>
+
+
